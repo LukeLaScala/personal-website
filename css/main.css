@@ -1,0 +1,44 @@
+html {
+	background-color: black;
+}
+
+.left{
+	float: left;
+}
+
+.right {
+	float: right;
+}
+.name {
+	color: white;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.desc {
+	color: #67F449;
+	font-family: 'Source Code Pro', monospace;
+
+}
+
+.upper-link{
+	text-decoration: none;
+	color: white;
+	display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#leftmost-link{
+	padding-right: 2rem;
+}
+.container{
+	margin: auto;
+    width: 80%;
+    height: 100%;
+    margin-top: 8%;
+}
