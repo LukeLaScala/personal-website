@@ -6,6 +6,16 @@ html {
 	float: left;
 }
 
+html, body {
+	height: 95%;
+	margin: 0;
+}
+
+
+.bottom-bar {
+	clear: left;
+}
+
 .right {
 	float: right;
 }
@@ -17,7 +27,13 @@ html {
 .desc {
 	color: #67F449;
 	font-family: 'Source Code Pro', monospace;
-
+	display: block;
+    font-size: 2.4em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 
 .upper-link{
@@ -36,9 +52,59 @@ html {
 #leftmost-link{
 	padding-right: 2rem;
 }
+
+.long-desc {
+	color: white;
+	font-family: Helvetica Neue, Arial, sans-serif;
+	max-width: 40%;
+	line-height: 2;
+}
+
+.top-container{
+	margin: auto;
+    width: 80%;
+    min-height: 20%;
+    margin-top: 6%;
+}
+
 .container{
 	margin: auto;
     width: 80%;
-    height: 100%;
-    margin-top: 8%;
+    min-height: 40%;
 }
+
+.bottom-container {
+	margin: auto;
+    width: 80%;
+}
+
+
+.left-bottom {
+	width: 42.5%;
+	float: left;
+}
+
+.center-bottom {
+	width: 10%;
+}
+
+.right-bottom {
+	width: 47.5%;
+	float: right;
+}
+
+.times {
+	color: #67F449;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.under-times {
+	color: white;
+	font-family: Helvetica Neue, Arial, sans-serif;
+
+}
+
+.text-link {
+	color: white;
+}
+
